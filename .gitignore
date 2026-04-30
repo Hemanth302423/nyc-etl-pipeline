@@ -1,0 +1,20 @@
+# Virtual environment
+venv/
+
+# Data files (too large for git)
+data/raw/
+data/processed/
+data/warehouse.duckdb
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
